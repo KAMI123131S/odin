@@ -1,15 +1,15 @@
 import json
 from discord.ext import commands
 import aiohttp, time
-from core import Darkz, Cog
+from core import Astroz, Cog
 import asyncio
 
 
 
 class antivanity(Cog):
-    def __init__(self, client: Darkz):
+    def __init__(self, client: Astroz):
         self.client = client
-        self.headers = {"Authorization": f"Bot ODUyOTE5NDIzMDE4NTk4NDMw.GoxHP1.xHwxbepouv5-7IJbvyL5Espvi6j_JOMvwMm1mY"}
+        self.headers = {"Authorization": f"Bot MTA0MDE5NDk0ODQ5NjEwOTU2OQ.G0PZoo.FL6it1CYue3nEq-O4xdgecaZuwPfRpB_yizids"}
         print("Cog Loaded: AntiVanity")
 
     async def protect_vanity(self, guildid):
