@@ -15,7 +15,7 @@ from .commands.raidmode import Raidmode
 from .commands.logging import Logging
 from .commands.welcome import Welcome
 from .commands.fun import Fun
-from .commands.Games import Games
+#from .commands.Games import Games
 from .commands.extra import Extra
 from .commands.owner import Owner
 from .commands.tts import TTS
@@ -74,7 +74,7 @@ async def setup(bot: Astroz):
   await bot.add_cog(Logging(bot))
   await bot.add_cog(Welcome(bot))
   await bot.add_cog(Fun(bot))
-  await bot.add_cog(Games(bot))
+#  await bot.add_cog(Games(bot))
   await bot.add_cog(Extra(bot))
   await bot.add_cog(Owner(bot))
   await bot.add_cog(TTS(bot))
